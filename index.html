@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Explore Redux</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+    <title>Test Reduxerino</title>
+</head>
+<body>
     <h1 id="value"></h1>
+    
     <div>
-      <button id="plus">+</button>
-      <button id="minus">-</button>
+        <button id="plus">+</button>
+        <button id="minus">-</button>
+	
+        <input id="custom-input">
+        <button id="input-submit">add custom</button>
     </div>
-    <script src="script.js"></script>
-  </body>
+    <div>
+        <button id="plusFive">+5</button>
+        <button id="minusFive">-5</button>
+    </div>
+    <div>
+        <button id="increment-odd">increment if odd</button>
+    </div>
+    <div>
+        <button id="increment-async">increment async</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
 </html>
